@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %}About me{% endblock title %}
+
+{% block content %}
+
+    <div class="container-fluid">
+        <div class="card" style="width: 18rem;">
+            <div class="card-header">
+              My credentials
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Name: Mate Paić</li>
+                <li class="list-group-item">Age: 22</li>
+                <li class="list-group-item">Location: Vodice</li>
+            </ul>
+        </div>
+    </div>
+
+    <p>{{some_text}}</p>
+    <p>Current year: {{current_year}}</p>
+{% endblock content %}
+
+
+

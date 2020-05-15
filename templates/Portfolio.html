@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block title %}Portfolio{% endblock title %}
+
+{% block content %}
+    <h1>Welcome to my portfolio</h1>
+
+    <div class="center">
+      <div class="card" style="width: 46rem;">
+        <div class="card-body">
+          <h5 class="card-title">Fakebook</h5>
+          <p class="card-text">This is my fakebook page I have created in my first homework</p>
+          <a href="/portfolio/fakebook" class="card-link"> link</a>
+          <a href="https://github.com/MatePaic/fakebook" class="card-link">GitHub</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 46rem;">
+        <div class="card-body">
+          <h5 class="card-title">Boogle</h5>
+          <p class="card-text">Boogle is Brazilian equivalent of US Google</p>
+          <a href="/portfolio/boogle" class="card-link"> link</a>
+          <a href="https://github.com/MatePaic/bboogle" class="card-link">GitHub</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 46rem;">
+        <div class="card-body">
+          <h5 class="card-title">Hair salon</h5>
+          <p class="card-text">Best hairsalon in Vodice</p>
+          <a href="/portfolio/hair-salon" class="card-link"> link</a>
+          <a href="https://github.com/MatePaic/Hairsalon" class="card-link">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+  {% if question %}
+    <p>This is my first web application</p>
+  {% else %}
+    <p>Whati is your best web page?</p>
+  {% endif %}
+{% endblock content %}

@@ -1,0 +1,40 @@
+body {
+    background-color: #ffbf80;
+;
+}
+
+h1 {
+    color: green;
+}
+
+#search {
+    width: 200px;
+    height: 20px;
+    border-radius: 14px;
+}
+
+#search:hover {
+    width: 500px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.category {
+    font-family: Arial;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+
+.category strong {
+    text-decoration: underline;
+    font-size: 1.2em;
+}
+
+img {
+  border: 6px black double;
+  padding: 7px;
+}
+
+img:hover {
+  border: 6px red solid;
+}
